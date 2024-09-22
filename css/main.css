@@ -1585,22 +1585,18 @@ h1 {
 /* Media Queries para tamaños de pantalla diferentes */
 @media screen and (min-width: 100px) and (max-width: 575px) {
   /* Estilos para pantallas pequeñas */
-  h1 {
-      font-size: 1.5em;
-  }
-
   .flowers{
       position: relative;
-      transform: scale(1.1);
+      transform: scale(1.2);
       /*margin-bottom: 100px;
       */
-      right: 170px;
-      bottom: 30px;
+      right: 168px;
+      bottom: 100px;
   }
   #lyrics {
     font-size: 18px;
     position: relative;
-    bottom: 400px;
+    bottom: 450px;
     text-align: center;
   }
 }
