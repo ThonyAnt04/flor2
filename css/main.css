@@ -1595,11 +1595,13 @@ h1 {
       /*margin-bottom: 100px;
       */
       right: 200px;
+      bottom: 20%;
   }
   #lyrics {
     font-size: 18px;
     position: relative;
     bottom: 400px;
+    text-align: center;
   }
 }
 
