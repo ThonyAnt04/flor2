@@ -1583,7 +1583,7 @@ h1 {
 }
 
 /* Media Queries para tamaños de pantalla diferentes */
-@media screen and (max-width: 575px) {
+@media screen and (min-width: 200px) and (max-width: 575px) {
   /* Estilos para pantallas pequeñas */
   h1 {
       font-size: 1.5em;
@@ -1591,7 +1591,7 @@ h1 {
 
   .flowers{
       position: relative;
-      transform: scale(0.8);
+      transform: scale(0.9);
       /*margin-bottom: 100px;
       */
       right: 200px;
