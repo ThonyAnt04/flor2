@@ -1583,14 +1583,15 @@ h1 {
 }
 
 /* Media Queries para tamaños de pantalla diferentes */
-@media only screen and (min-width: 0px) and (max-width: 575px) {
+@media only screen and (min-width: 0px) and (max-width: 420px) {
   /* Estilos para pantallas pequeñas */
 
   .flowers{
     position: relative;
     transform: scale(0.9);
     /*margin-bottom: 100px;
-    */right: 200px;
+    */
+    right: 50%;
     bottom: 80px;
   }
   #lyrics {
@@ -1601,6 +1602,24 @@ h1 {
   }
 }
 
+@media only screen and (min-width: 421px) and (max-width: 575px) {
+  /* Estilos para pantallas pequeñas */
+
+  .flowers{
+    position: relative;
+    transform: scale(0.9);
+    /*margin-bottom: 100px;
+    */
+    right: 200px;
+    bottom: 80px;
+  }
+  #lyrics {
+    font-size: 18px;
+    position: relative;
+    bottom: 450px;
+    text-align: center;
+  }
+}
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
   /* Estilos para pantallas medianas */
